@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "#/*": ["app/*"],
+      "&/*": ["test/*"]
+    },
+    "sourceMap": true,
+    "lib": ["dom", "es5", "es2015"],
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true
+  }
+}
